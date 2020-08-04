@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+.makrab{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .8),rgba(255, 255, 255, .8)), url("../img/Logo\ OSIS.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.centang{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15% 0 15% 0;
+}
+.makrab .hadir h1{
+    font-family: 'Mulish', sans-serif;
+}
+.makrab .hadir h2{
+    font-family: 'Cinzel', serif;
+}
+
+/* -- Responsive Data Index -- */
+        /* - Dekstop - */
+            /* small */
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                
+            }
+        /* - END Dekstop - */
+        /* - Tablet - */
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                
+            }
+            /* Small */
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                
+            }
+        /* - END Tablet - */
+        /* - Phone - */
+            @media (max-width: 575.98px) {
+                
+            }
+            /* Medium */
+            @media (max-width: 475.98px) {
+                
+            }
+            /* small */
+            @media (max-width: 375.98px) {
+                .centang{
+                    margin: 10% 0 10% 0;
+                }
+                svg{
+                    width: 250px;
+                }
+                .makrab .hadir h1{
+                    font-size: 40px;
+                }
+                .makrab .hadir h2{
+                    font-size: 30px;
+                }
+            }
+        /* - END Phone - */
+    /* -- Responsive Data Index -- */
